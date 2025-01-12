@@ -54,21 +54,27 @@ span {
 
 .title-part1 {
     margin: 0;
-    padding: 100px 0 0 30px;
-    font: small-caps 30px/1.5 Arial, Sans-serif;
+    padding: 6rem 0 0 1.9rem;
+    font: small-caps 1.9rem/1.5 Arial, Sans-serif;
 }
 
 .title-part2 {
     margin: 0;
-    padding: 0 100px;
-    font: small-caps 30px/1.5 Arial, Sans-serif;
+    padding: 0 6rem;
+    font: small-caps 1.9rem/1.5 Arial, Sans-serif;
+}
+
+@media (max-width: 320px) {
+    header {
+        flex-direction: column;
+    }
 }
 
 .flex.ul {
     width: 28rem;
-    gap: 50px;
-    border: 2px solid black;
-    border-radius: 20px;
+    gap: 3rem;
+    border: 0.1rem solid black;
+    border-radius: 1.5rem;
     background-color: #DBC6C0;
 }
 
