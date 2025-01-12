@@ -1,0 +1,135 @@
+body {
+    padding-top: 1rem;
+    font: 1.3rem/1.5 Arial, Sans-serif;
+}
+
+h1 {
+    font: italic 900 6rem/1.5 Arial;
+    padding: 1rem;
+}
+
+h3 {
+    font-variant: small-caps;
+    font-weight: 700;
+}
+
+h4 {
+    text-align: center;
+    text-align: center;
+    font-variant: small-caps;
+    font-weight: 700;
+    color: rgb(70, 11, 124);
+
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #7c0083;
+}
+
+a:hover {
+    color: #540058;
+    text-decoration: underline;
+}
+
+span {
+    color: #540058;
+    font-weight: 900;
+}
+
+.mar-pad {
+    margin: 0.3rem;
+    padding: 0.3rem;
+}
+
+.project {
+    text-align: center;
+}
+
+.title-part1 {
+    margin: 0;
+    padding: 100px 0 0 30px;
+    font: small-caps 30px/1.5 Arial, Sans-serif;
+}
+
+.title-part2 {
+    margin: 0;
+    padding: 0 100px;
+    font: small-caps 30px/1.5 Arial, Sans-serif;
+}
+
+.flex.ul {
+    width: 28rem;
+    gap: 50px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #DBC6C0;
+}
+
+.flex {
+    display: flex;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgPeople {
+    width: 20rem;
+    height: auto;
+    border: 0.3rem groove #000000;
+    border-radius: 2%;
+}
+
+.imgFood {
+    width: 12rem;
+    height: auto;
+    border: 0.3rem solid rgb(133, 133, 160);
+    border-radius: 5%;
+}
+
+.title {
+    width: 50%;
+    text-align: center;
+    font-variant: small-caps;
+    font-weight: 700;
+    color: rgb(70, 11, 124);
+}
+
+.part1 {
+    box-sizing: border-box;
+    padding: 3%;
+    width: 100%;
+    height: auto;
+    background-color: rgba(252, 173, 252, 0.411);
+    border-bottom: 0.2rem solid black;
+}
+
+.part2 {
+    box-sizing: border-box;
+    padding: 3%;
+    width: 100%;
+    height: auto;
+    background-color: rgba(253, 207, 161, 0.427);
+    border-bottom: 0.2rem solid black;
+}
+
+.center-justify {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.manager-project {
+    width: 50%;
+    padding: 1rem;
+}
